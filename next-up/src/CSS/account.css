@@ -1,0 +1,44 @@
+.userDetailsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.userDetails {
+  justify-self: flex-start;
+  color: white;
+}
+.userAccountText {
+  text-align: center;
+  color: white;
+}
+.signUpLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.text-center {
+  color: white;
+}
+.table {
+  color: white;
+}
+.userInfo {
+  color: white;
+}
+.updateBtn {
+  background-color: rgb(81, 76, 112);
+}
+.deleteBtn {
+  background-color: rgb(189, 46, 46);
+}
+.updateBtn:hover {
+  background-color: white;
+  color: rgb(81, 76, 112);
+}
+.deleteBtn:hover {
+  background-color: white;
+  color: rgb(189, 46, 46);
+}

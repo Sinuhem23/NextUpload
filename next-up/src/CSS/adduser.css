@@ -1,0 +1,56 @@
+.signUpForm {
+  display: grid;
+  justify-items: stretch;
+  margin-top: 2rem;
+}
+.textInfo {
+  color: white;
+  text-align: center;
+}
+.saveBtn {
+  margin: 1rem 0;
+  /* background-color: rgb(76, 112, 98); */
+  background-color: rgb(68, 146, 115);
+}
+.saveBtn:hover {
+  /* background-color: rgb(68, 146, 115); */
+  background-color: rgb(76, 112, 98);
+}
+.signUpText {
+  display: inline-grid;
+  color: white;
+  font-weight: bold;
+}
+.signUpTextArea {
+  display: inline-grid;
+  color: white;
+  font-size: small;
+  font-weight: bold;
+  padding: 0 1rem 0 0;
+  justify-items: center;
+}
+.signUpBtn {
+  margin-top: 3rem;
+}
+.backgroundCard {
+  border: 1px solid rgb(175, 175, 175);
+  box-shadow: 3px 3px 21px lightgrey;
+  padding: 5em;
+  border-radius: 4px;
+  background-color: rgb(81, 76, 112);
+  margin: 3rem;
+}
+.form-control {
+  padding: 10px;
+  border-radius: 4px;
+  outline: 0;
+}
+.form-control:hover {
+  background-color: rgb(209, 209, 209);
+}
+
+@media (max-width: 650px) {
+  .signUpTextArea {
+    font-size: x-small;
+  }
+}

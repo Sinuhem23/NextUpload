@@ -1,0 +1,41 @@
+/* Airplane Videos Section ////////////////// */
+
+.liked_uploads {
+  background: rgb(56, 56, 56);
+  padding: 6em;
+}
+.liked_uploads > h3 {
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.main_Liked_Video {
+  display: flex;
+  justify-content: center;
+  height: 30rem;
+  width: auto;
+  padding: 1rem;
+}
+.main_iframe {
+  height: 100%;
+  width: 100%;
+}
+
+/* End of Aiplane Video Section ////////////////// */
+
+/* Media Section  ////////////////////*/
+
+@media (max-width: 650px) {
+  /* Liked Videos Section  ////////////////////////// */
+  .liked_uploads {
+    padding: 1em;
+  }
+  .liked_uploads h3 {
+    color: white;
+  }
+
+  /* End of Liked Videos Section ////////////////////////// */
+
+  /* End of Media Section  ////////////////////*/
+}

@@ -1,0 +1,47 @@
+/* All Videos Section ////////////////// */
+
+.all_uploads {
+  background: rgb(56, 56, 56);
+  padding: 6em;
+}
+.all_uploads > h3 {
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+.iframe_container {
+  color: white;
+  font-weight: 600;
+}
+.ytTitle {
+  color: rgb(81, 176, 253);
+
+  /* color: rgb(131, 125, 180); */
+}
+.channelTitle {
+  /* color: rgb(81, 176, 253);
+   */
+  color: rgb(131, 125, 180);
+}
+.ytDescription {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+/* End of All Video Section ////////////////// */
+
+/* Media Section  ////////////////////*/
+
+@media (max-width: 650px) {
+  /* All Video Section  ////////////////////////// */
+
+  .all_uploads {
+    padding: 1em;
+  }
+  .all_uploads h3 {
+    color: white;
+  }
+
+  /* End of All Video/Upload to Favorites Section ////////////////////////// */
+
+  /* End of Media Section  ////////////////////*/
+}

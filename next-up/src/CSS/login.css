@@ -1,0 +1,27 @@
+.signInForm {
+  display: grid;
+  justify-items: stretch;
+  margin-top: 3rem;
+}
+.signUpContainer {
+  display: grid;
+  justify-items: center;
+  margin-bottom: 3rem;
+}
+
+.signInText {
+  display: inline-grid;
+  color: white;
+  font-weight: bold;
+}
+.loginSubmit {
+  margin-top: 1rem;
+}
+.logInCard-body {
+  display: grid;
+}
+.signUpSection {
+  align-items: end;
+  justify-items: center;
+  margin-top: 1rem;
+}

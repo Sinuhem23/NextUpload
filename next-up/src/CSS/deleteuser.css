@@ -1,0 +1,11 @@
+.deleteText {
+  text-align: center;
+  color: white;
+}
+.deleteForm {
+  display: grid;
+  color: white;
+
+  justify-items: center;
+  margin-top: 3rem;
+}

@@ -1,0 +1,71 @@
+/* Airplane Videos Section ////////////////// */
+
+.history_uploads {
+  background: rgb(56, 56, 56);
+  /* padding: 6em 5em; */
+  margin: 4em 2em 8em 2em;
+  max-height: 500px;
+}
+.history_uploads h3 {
+  display: grid;
+  position: sticky;
+  top: 0;
+  color: white;
+  margin-left: 10px;
+  padding: 10px;
+  justify-content: flex-start;
+
+  background-color: rgb(56, 56, 56);
+}
+.history_uploads h4 {
+  display: grid;
+  position: sticky;
+  top: 0;
+  color: white;
+  margin-left: 10px;
+  padding: 1rem 10px;
+  justify-content: flex-start;
+
+  background-color: rgb(56, 56, 56);
+}
+.container_scroll {
+  overflow: scroll;
+}
+
+.main_Favorite_Video {
+  display: flex;
+  justify-content: center;
+  height: 30rem;
+  width: auto;
+  padding: 1rem;
+}
+.main_iframe {
+  height: 100%;
+  width: 100%;
+}
+/* End of Aiplane Video Section ////////////////// */
+
+/* Media Section  ////////////////////*/
+
+@media (max-width: 650px) {
+  /* History Section  ////////////////////////// */
+  .history_uploads {
+    padding: 0;
+    display: grid;
+    margin: 3em 22px;
+  }
+  .history_uploads h3 {
+    color: white;
+    padding: 10px;
+    justify-content: center;
+  }
+  .history_uploads h4 {
+    color: white;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  /* End of History Section ////////////////////////// */
+
+  /* End of Media Section  ////////////////////*/
+}

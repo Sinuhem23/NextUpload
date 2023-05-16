@@ -1,0 +1,61 @@
+/* Boat Videos Section ////////////////// */
+
+.boats_uploads {
+  background: rgb(56, 56, 56);
+  padding: 3em;
+}
+.boats_uploads > h3 {
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.recently_added_playlist_videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1em;
+  padding: 1em;
+}
+/* End of Boat Videos Section ////////////////// */
+
+/* Footer Section  ////////////////////*/
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid rgb(238, 238, 238);
+  box-shadow: -3px -3px lightgray;
+}
+.footer_top_btn {
+  height: 3em;
+  justify-content: center;
+  width: 120px;
+}
+/* End of Footer Section  ////////////////////*/
+
+/* Media Section  ////////////////////*/
+/* For Big Screens */
+@media (min-width: 1020px) {
+  .recently_added_playlist_videos {
+    grid-gap: 5em;
+  }
+}
+@media (max-width: 650px) {
+  /* Boat Videos Section  ////////////////////////// */
+  .boats_uploads {
+    padding: 1em;
+  }
+  .boats_uploads h3 {
+    color: white;
+  }
+  .recently_added_playlist_videos {
+    grid-gap: 2em;
+  }
+  /* End of Boat Videos Section ////////////////////////// */
+
+  /* End of Media Section  ////////////////////*/
+}

@@ -1,0 +1,42 @@
+/* Favorite Videos Section ////////////////// */
+
+.fav_playlist_uploads {
+  background: rgb(56, 56, 56);
+  padding: 3em;
+}
+.fav_playlist_text {
+  display: flex;
+  color: white;
+  align-content: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.main_Favorite_Video {
+  display: flex;
+  justify-content: center;
+  height: 30rem;
+  width: auto;
+  padding: 1rem;
+}
+.main_iframe {
+  height: 100%;
+  width: 100%;
+}
+/* End of Favorite Video Section ////////////////// */
+
+/* Media Section  ////////////////////*/
+
+@media (max-width: 650px) {
+  /* Favorite Videos Section  ////////////////////////// */
+  .fav_playlist_uploads {
+    padding: 1em;
+  }
+  .fav_playlist_uploads h3 {
+    color: white;
+  }
+
+  /* End of Favorite Videos Section ////////////////////////// */
+
+  /* End of Media Section  ////////////////////*/
+}

@@ -1,0 +1,158 @@
+/* Landing Page / Add Video Section /////////////////// */
+.add_video_container {
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 0;
+}
+
+.landing_Image {
+  width: 100%;
+  height: 60vh;
+  padding-top: 5%;
+}
+
+.homepg_main_text {
+  justify-items: flex-start;
+  align-content: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.home_Text {
+  font-weight: bold;
+}
+
+/* End of Landing Page / Add Video Section /////////////////// */
+
+/* Upload Playlist Section ////////////////// */
+.upload_playlist_container {
+  /* Grid */
+  grid-template-columns: 1fr 3fr;
+  padding: 2em;
+  display: grid;
+  align-items: center;
+}
+.upload_text_1 {
+  justify-self: center;
+  align-self: center;
+  color: white;
+}
+.upload_text_2 {
+  background: rgb(56, 56, 56);
+  padding: 1em;
+}
+.upload_text_2 > h3 {
+  display: flex;
+  color: white;
+
+  justify-content: center;
+}
+.add_to_playlist_btn {
+  margin: 0 0 6em 1em;
+}
+
+.recently_added_playlist_videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 6rem;
+  padding: 2rem;
+}
+/* End of Upload Playlist Section ////////////////// */
+
+/* Favorites Section ////////////////// */
+.some_favorites_container {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 0;
+  text-align: center;
+  color: white;
+}
+.some_favorites_container > ul {
+  flex-wrap: wrap;
+}
+.fav_video_text {
+  padding-bottom: 60px;
+}
+/* End of Favorites Section */
+
+/* Share Section ///////////////////// */
+.share_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 0;
+  background-color: rgb(56, 56, 56);
+  color: white;
+}
+.share_btn {
+  width: 120px;
+}
+/* End of Share Section ///////////////////// */
+
+/* Media Section  ////////////////////*/
+
+@media (max-width: 650px) {
+  /* Add Video Section ////////////////*/
+  .landing_Image {
+    height: 30vh;
+  }
+  .homepg_main_text {
+    font-size: 32px;
+    padding: 1em;
+    margin: 0;
+  }
+  .home_Text {
+    font-size: 12px;
+  }
+  .add_video_container {
+    padding: 12% 0;
+  }
+  .add_account_btn {
+    margin-bottom: 6em;
+  }
+  /* End of Add Video Section  /////////////// */
+
+  /* Some Favorites Section ////////////////////////// */
+  .some_favorites_container {
+    padding: 1em;
+  }
+  .some_favorites_container > ul {
+    font-weight: bold;
+    background-color: rgb(56, 56, 56);
+    padding: 2em;
+    text-align: start;
+    grid-gap: 2em;
+  }
+  .sub_navbar a {
+    font-size: x-small;
+  }
+  .fav_video_text {
+    padding: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  /* End of Some Favorites Section ////////////////////////// */
+
+  /* Upload to Favorites Section  ////////////////////////// */
+
+  .upload_playlist_container {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    padding: 0;
+    justify-items: center;
+  }
+  .upload_text_2 {
+    padding: 0;
+  }
+  .upload_text_2 > h3 {
+    color: white;
+  }
+  .recently_added_playlist_videos {
+    grid-gap: 2em;
+    padding: 1rem;
+  }
+  /* End of Upload to Favorites Section ////////////////////////// */
+
+  /* End of Media Section  ////////////////////*/
+}

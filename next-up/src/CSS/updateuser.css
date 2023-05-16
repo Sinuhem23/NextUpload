@@ -1,0 +1,39 @@
+.updateText {
+  text-align: center;
+  color: white;
+}
+.updateForm {
+  display: grid;
+  color: white;
+
+  justify-items: center;
+  margin-top: 3rem;
+}
+.buttonContainers {
+  display: flex;
+  justify-self: end;
+}
+.formLables {
+  font-weight: bold;
+}
+.updateBtn {
+  background-color: rgb(81, 76, 112);
+}
+.cancelBtn {
+  /* background-color: rgb(189, 46, 46); */
+}
+
+.cancelBtn:hover {
+  background-color: white;
+  color: rgb(189, 46, 46);
+}
+
+@media (max-width: 650px) {
+  .buttonContainers {
+    margin-top: 3rem;
+    justify-self: flex-start;
+  }
+  .backgroundCard {
+    margin: 2rem;
+  }
+}

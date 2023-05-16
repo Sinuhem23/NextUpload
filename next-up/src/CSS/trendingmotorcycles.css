@@ -1,0 +1,29 @@
+/* Motorcycle Videos Section ////////////////// */
+
+.motorcycle_uploads {
+  background: rgb(56, 56, 56);
+  padding: 3em;
+}
+.motorcycle_uploads > h3 {
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+/* End of Motorcyle Video Section ////////////////// */
+
+/* Media Section  ////////////////////*/
+
+@media (max-width: 650px) {
+  /* Motorcyle Videos Section  ////////////////////////// */
+  .motorcycle_uploads {
+    padding: 1em;
+  }
+  .motorcycle_uploads h3 {
+    color: white;
+  }
+
+  /* End of Motorcycle Videos Section ////////////////////////// */
+
+  /* End of Media Section  ////////////////////*/
+}
