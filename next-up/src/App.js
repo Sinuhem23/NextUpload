@@ -62,42 +62,42 @@ function App() {
             <Route path='/favorite-playlist' element={<FavoritePlayList />} />
             <Route path='/history' element={<History />} />
             <Route path='/myvideos' element={<MyVideos />} />
-            <Route path='/users' element={Account}></Route>
-            <Route path='/add-user' element={AddUser}></Route>
-            <Route path='/update-user/:id' element={UpdateUser}></Route>
-            <Route path='/delete-user/:id' element={DeleteUser}></Route>
-            <Route path='/login' element={LogIn}></Route>
+            <Route path='/users' element={<Account />}></Route>
+            <Route path='/add-user' element={<AddUser />}></Route>
+            <Route path='/update-user/:id' element={<UpdateUser />}></Route>
+            <Route path='/delete-user/:id' element={<DeleteUser />}></Route>
+            <Route path='/login' element={<LogIn />}></Route>
 
             <Route
               exact
               path='/trending-airplanes'
-              element={TrendingVideo}
+              element={<TrendingVideo />}
               term='airplanes'
               title='Trending Airplanes'
             />
             <Route
               exact
               path='/trending-boats'
-              element={TrendingVideo}
+              element={<TrendingVideo />}
               term='boats'
               title='Trending Boats'
             />
             <Route
               exact
               path='/trending-cars'
-              element={TrendingVideo}
+              element={<TrendingVideo />}
               term='cars'
               title='Trending Cars'
             />
             <Route
               exact
               path='/trending-motorcycles'
-              element={TrendingVideo}
+              element={<TrendingVideo />}
               term='motorcycles'
               title='Trending Motorcycles'
             />
 
-            <Route path='/likedvideos' element={LikedVideos}></Route>
+            <Route path='/likedvideos' element={<LikedVideos />}></Route>
           </Routes>
         </ListContext.Provider>
 
